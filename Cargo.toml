@@ -1,0 +1,8 @@
+[package]
+name = "mincore"
+version = "0.1.0"
+edition = "2024"
+description = "The mincore Command Reports Which Pages of a File Are Resident in Memory, with Page Ranges and a Summary of Cached Data"
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
